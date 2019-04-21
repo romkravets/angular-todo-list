@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-todolist';
+  // tslint:disable-next-line:no-inferrable-types
+  name: string = 'Roman';
 }
